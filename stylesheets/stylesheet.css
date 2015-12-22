@@ -104,6 +104,11 @@ a {
   .project-tagline {
     font-size: 1rem; } }
 
+.cats {
+  position: relative;
+  margin: 0 auto;
+}
+
 .catcontainer {
   float: left;
   margin: 1rem;
