@@ -118,6 +118,10 @@ a {
   text-align: center;
 }
 
+.page-header h1 a {
+  color: white;
+}
+
 /*
 .main-content :first-child {
   margin-top: 0; }
