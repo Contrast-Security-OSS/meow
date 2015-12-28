@@ -106,30 +106,19 @@ a {
   .project-tagline {
     font-size: 1rem; } }
 
-.cats {
-  position: relative;
-  width: 100%;
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-/*
-.catthumb {
+.catimage {
   position: relative;
   float: center;
-  max-width: 250px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
-*/
 
 .catcontainer {
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
-  padding-left: 3.5rem;
+  float: center;
+  margin: 1rem;
 }
 
 
@@ -144,8 +133,7 @@ a {
 /* Main Content */
 
 .main-content {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: auto;
   height: 100%;
 }
