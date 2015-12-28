@@ -53,6 +53,8 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
+/* Page Header */
+
 .page-header {
   color: #fff;
   text-align: center;
@@ -104,12 +106,9 @@ a {
   .project-tagline {
     font-size: 1rem; } }
 
-.cats {
-  position: relative;
-  margin: 0 auto;
-}
 
 .catcontainer {
+  position: relative;
   float: left;
   margin: 1rem;
 }
@@ -122,14 +121,12 @@ a {
   color: white;
 }
 
-/*
-.main-content :first-child {
-  margin-top: 0; }
-  */
+/* Main Content */
 
-.main-content img {
-  max-width: 100%;
+.main-content {
   margin: 0 auto;
+  width: auto;
+  height: 100%;
 }
 
 .main-content h1, .main-content h2 {
@@ -143,24 +140,21 @@ a {
 .main-content h3, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
+  font-size: 20px;
   font-weight: 700;
   color: #bfbfbf; }
-
 .main-content h4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: 400;
   font-size: 12px;
   color: #808080;
-  text-align: center;
-}
+  text-align: center;}
 .main-content p {
   margin-bottom: 1em; 
   font-size: 14px;
   line-height: 1.5;
-  color: #292929;
-  }
-
+  color: #292929;}
 .main-content code {
   padding: 2px 4px;
   font-family: Consolas, "Lato", Menlo, Courier, monospace;
@@ -178,7 +172,7 @@ a {
   background-color: #f3f6fa;
   border: solid 1px #dce6f0;
   border-radius: 0.3rem; }
-  .main-content pre > code {
+ .main-content pre > code {
     padding: 0;
     margin: 0;
     font-size: 0.9rem;
@@ -208,7 +202,7 @@ a {
   word-wrap: normal;
   background-color: transparent;
   border: 0; }
-  .main-content pre code:before, .main-content pre code:after, .main-content pre tt:before, .main-content pre tt:after {
+.main-content pre code:before, .main-content pre code:after, .main-content pre tt:before, .main-content pre tt:after {
     content: normal; }
 .main-content ul, .main-content ol {
   margin-top: 0; }
@@ -266,11 +260,20 @@ a {
     padding: 2rem 1rem;
     font-size: 1rem; } }
 
+/* Footer */
+
 .site-footer {
-  display: block;
+  float: left;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
   padding-top: 2rem;
   margin-top: 2rem;
-  border-top: solid 1px #eff0f1; }
+  padding-bottom: 2rem;
+  border-top: solid 1px #eff0f1; 
+}
 
 .site-footer-owner {
   display: block;
