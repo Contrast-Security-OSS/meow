@@ -106,30 +106,19 @@ a {
   .project-tagline {
     font-size: 1rem; } }
 
-.cats {
-  position: relative;
-  width: 100%;
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-/*
-.catthumb {
+.catimage {
   position: relative;
   float: center;
-  max-width: 250px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
-*/
 
 .catcontainer {
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  float: left;
-  padding-left: 3.5rem;
+  float: center;
+  margin: 1rem;
 }
 
 
@@ -144,8 +133,7 @@ a {
 /* Main Content */
 
 .main-content {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: auto;
   height: 100%;
 }
@@ -266,22 +254,26 @@ a {
 
 @media screen and (min-width: 64em) {
   .main-content {
-    padding: 2rem 5rem;
+    max-width: 75rem;
+    padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1rem; } 
-  }
+  .catimage {
+  float: center; }}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
-    padding: 2rem 5rem;
+    padding: 2rem 4rem;
     font-size: 1.1rem; } 
-  }
+  .catimage {
+  float: center; }}
 
 @media screen and (max-width: 42em) {
   .main-content {
-    padding: 2rem 5rem;
+    padding: 2rem 1rem;
     font-size: 1rem; } 
-  }
+  .catimage {
+  float: center; }}
 
 /* Footer */
 
