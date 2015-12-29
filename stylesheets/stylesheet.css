@@ -84,8 +84,6 @@ a {
   background-repeat: repeat-x;
 }
 
-
-
 @media screen and (min-width: 64em) {
   .page-header {
     padding: 2rem 1rem; } }
@@ -139,16 +137,6 @@ a {
   margin-right: auto;
 }
 
-/*
-.catthumb {
-  position: relative;
-  float: center;
-  max-width: 250px;
-  margin-left: auto;
-  margin-right: auto;
-}
-*/
-
 .catcontainer {
   position: relative;
   margin-left: auto;
@@ -156,7 +144,6 @@ a {
   float: left;
   padding-left: 3.5rem;
 }
-
 
 .catcontainer h3 {
   text-align: center;
