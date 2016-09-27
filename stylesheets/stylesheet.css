@@ -63,6 +63,7 @@ a {
 .nav-right .fa {
   float: right;
   padding-right: 5px;
+  padding-bottom:10px;
   transform: translateY(-170%);
   color: #fff;
 }
