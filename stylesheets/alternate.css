@@ -10,7 +10,7 @@ body {
   color: #606c71; }
 
 a {
-  color: #3F97B3;
+  color: #0DA1A9;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -63,6 +63,7 @@ a {
 .nav-right .fa {
   float: right;
   padding-right: 5px;
+  padding-bottom:10px;
   transform: translateY(-170%);
   color: #fff;
 }
